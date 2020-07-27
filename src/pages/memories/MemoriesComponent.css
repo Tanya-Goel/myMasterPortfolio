@@ -1,0 +1,36 @@
+.heading-img-div {
+    max-width: 70%;
+    height: 5%;
+    display: flex;
+    margin-right: 3%;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.new-img-div>* {
+    max-width: 20%;
+    /* height: 10%; */
+    margin-right: 2%;
+    display: inline;
+    margin-left: 3%;
+}
+
+.img-div>* {
+    max-width: 35%;
+    /* height: 2%; */
+    margin-right: 2%;
+    display: inline;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+
+.heading-text {
+    font-size: 46px;
+    font-weight: 400;
+    font-family: "Google Sans Bold Italic";
+    text-decoration: underline;
+    /* line-height: 1.1; */
+    text-align: center;
+    margin-top: 50px;
+    /* margin-right: 950% */
+}

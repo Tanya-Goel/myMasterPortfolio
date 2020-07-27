@@ -13,6 +13,7 @@ const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
+const emailSection = contactPageData.emailSection;
 
 class Contact extends Component {
     render() {
@@ -24,6 +25,7 @@ class Contact extends Component {
 							<Fade bottom duration={1000} distance="40px">
 								<div className="contact-heading-div">
 									<div className="contact-heading-img-div">
+
 										<img
 											src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
 											alt=""
@@ -51,27 +53,28 @@ class Contact extends Component {
 							<Fade bottom duration={1000} distance="40px">
 								<div className="blog-heading-div">
 									<div className="blog-heading-text-div">
-										<h1 className="blog-heading-text" style={{ color: theme.text }}>
+										{/* <h1 className="blog-heading-text" style={{ color: theme.text }}>
 											{blogSection["title"]}
-										</h1>
-										<p className="blog-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
+										</h1> */}
+										{/* <p className="blog-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
 											{blogSection["subtitle"]}
-										</p>
-										<div className="blogsite-btn-div">
+										</p> */}
+										{/* <div className="blogsite-btn-div">
 											<Button
 												text="Visit My Blogsite"
 												newTab={true}
 												href={blogSection.link}
 												theme={theme}
 											/>
-										</div>
+										</div> */}
 									</div>
-									<div className="blog-heading-img-div">
+									<div className="blog-heading-img-div
+									">
 										{/* <img
 											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-										<BlogsImg theme={theme} />
+										{/* <BlogsImg theme={theme} /> */}
 									</div>
 								</div>
 							</Fade>
@@ -85,25 +88,31 @@ class Contact extends Component {
 										<AddressImg theme={theme} />
 									</div>
 									<div className="address-heading-text-div">
-										<h1 className="address-heading-text" style={{ color: theme.text }}>
+										{/* <h1 className="address-heading-text" style={{ color: theme.text }}>
 											{addressSection["title"]}
-										</h1>
-										<p className="contact-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
+										</h1> */}
+										 {/* <p className="contact-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
 											{addressSection["subtitle"]}
-										</p>
+										</p> */}
 										<h1 className="address-heading-text" style={{ color: theme.text }}>
 											{phoneSection["title"]}
-										</h1>
+										</h1> 
 										<p className="contact-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
 											{phoneSection["subtitle"]}
 										</p>
+										<h1 className="address-heading-text" style={{ color: theme.text }}>
+											{emailSection["title"]}
+										</h1> 
+										<p className="contact-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
+											{emailSection["subtitle"]}
+										</p>
 										<div className="address-btn-div">
-											<Button
+											{/* <Button
 												text="Visit on Google Maps"
 												newTab={true}
 												href={addressSection.location_map_link}
 												theme={theme}
-											/>
+											/> */}
 										</div>
 									</div>
 								</div>
