@@ -1,4 +1,4 @@
-This is my complete Customizable Software Developer Portfolio which showcases my work and provides each and every detail about me as a Software Developer.
+
 
 # Sections 📚
 ✔️ Summary and About me\
