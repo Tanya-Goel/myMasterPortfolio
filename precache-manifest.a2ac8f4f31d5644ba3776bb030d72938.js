@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1acc770198b2892706ad7213eb3b1fc4",
+    "revision": "6b549661998f2a0ff4b77b8f3c945e65",
     "url": "/myMasterPortfolio/index.html"
   },
   {
-    "revision": "cfb2aa28bf4e56c8848e",
-    "url": "/myMasterPortfolio/static/css/main.68d135ac.chunk.css"
+    "revision": "f60d42085e1e036f2e02",
+    "url": "/myMasterPortfolio/static/css/main.bdb27719.chunk.css"
   },
   {
-    "revision": "7c1f3994672d09aa544c",
-    "url": "/myMasterPortfolio/static/js/2.f0204bc3.chunk.js"
+    "revision": "9b7090da17ffb6efd3f3",
+    "url": "/myMasterPortfolio/static/js/2.e51eaf0e.chunk.js"
   },
   {
     "revision": "eaaf63558baae456918a991a401208d7",
-    "url": "/myMasterPortfolio/static/js/2.f0204bc3.chunk.js.LICENSE.txt"
+    "url": "/myMasterPortfolio/static/js/2.e51eaf0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cfb2aa28bf4e56c8848e",
-    "url": "/myMasterPortfolio/static/js/main.376974ac.chunk.js"
+    "revision": "f60d42085e1e036f2e02",
+    "url": "/myMasterPortfolio/static/js/main.8a33ff88.chunk.js"
   },
   {
     "revision": "1dab0f26c599656a03f7",
@@ -105,7 +105,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "bf9fa4286866c17f559f44eb8de788b6",
-    "url": "/myMasterPortfolio/static/media/circle-cropped.bf9fa428.png"
+    "url": "/myMasterPortfolio/static/media/circle.bf9fa428.png"
   },
   {
     "revision": "dfcb7a585547c0b125d208b980d6f57f",
@@ -150,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e36c56d8981da79fe2637b3a3035c38d",
     "url": "/myMasterPortfolio/static/media/experience.e36c56d8.svg"
+  },
+  {
+    "revision": "f4fab0519248d367a3bf11442e8bf1d5",
+    "url": "/myMasterPortfolio/static/media/f.f4fab051.png"
   },
   {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
@@ -210,6 +214,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c2801fb415f03c7b170934769d7b5397",
     "url": "/myMasterPortfolio/static/media/fa-solid-900.c2801fb4.svg"
+  },
+  {
+    "revision": "a73310ea0ad8aebedb65b3106024427a",
+    "url": "/myMasterPortfolio/static/media/feelingProud.a73310ea.svg"
+  },
+  {
+    "revision": "a81525671d5b0be15f3ecce87f6ea3ed",
+    "url": "/myMasterPortfolio/static/media/front.a8152567.jpg"
   },
   {
     "revision": "589bec7d632ecff9672dc4da97897bbd",
@@ -290,6 +302,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "40ccf1bdbf986bbad706b00f8db31237",
     "url": "/myMasterPortfolio/static/media/img9.40ccf1bd.jpg"
+  },
+  {
+    "revision": "29152cf756a1facead5393c32e373371",
+    "url": "/myMasterPortfolio/static/media/intel_logo.29152cf7.jpg"
   },
   {
     "revision": "003a9bb51342b68184fb56efbe849076",
